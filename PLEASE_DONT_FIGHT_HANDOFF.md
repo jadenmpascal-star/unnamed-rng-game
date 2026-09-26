@@ -69,3 +69,16 @@ Previous chat had just started step: locating the Illumina model, a real Roblox 
 - New mode GOLD RUSH (coins; big hits knock coins loose; KOs spill half).
 - Sound design layer for boss attacks (PDFSounds folder + classic rbxasset sounds).
 - Not playtested in Studio yet (built offline); verified by compile, type-check and a simulated run of every new move.
+
+## Update 3 (cloud session, built from the user's v3 upload — delivered as "Please Dont Fight - Claude update 3.rbxl")
+User rule: never change how a boss LOOKS (models untouched); only VFX and animation. No new accessories.
+- Drakobloxxer reworked: welds swapped for Motor6Ds at spawn (ReplicatedStorage.DrakoRig, same look) and animated by
+  ReplicatedStorage.DragonFX; 11 new-style moves + 4 ultimates in PDFSystems.DrakoKit; intro + defeat animation; Lift 23.
+- BossThemes: per-boss signature layer on every telegraph/lane/impact (events now carry data.boss). AnimationLibrary.BossStyle:
+  per-boss idle/walk personality.
+- SOCCER mode (PDFSystems.Soccer + ReplicatedStorage.SoccerFX) on the user's "Kick sum Bricks" map + SoccerBall; King of the Hill removed.
+- Trailer: owner types "trailer" in chat -> StarterPlayerScripts.TrailerClient plays a ~45s staged cinematic (Coach Brick gets dropkicked).
+- Achievement popup redesigned (rarity tiers) and Locker ACHIEVEMENTS tab replaced by the Trophy Hall.
+- FunFX: combo counter; REVENGE and FIRST BLOOD bonuses.
+- In-place docs: ServerScriptService.README (disabled Script) — keep it updated.
+- Not playtested (offline build): compiles, analyzer clean vs. original, Drako moves simulated.
