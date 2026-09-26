@@ -82,3 +82,11 @@ User rule: never change how a boss LOOKS (models untouched); only VFX and animat
 - FunFX: combo counter; REVENGE and FIRST BLOOD bonuses.
 - In-place docs: ServerScriptService.README (disabled Script) — keep it updated.
 - Not playtested (offline build): compiles, analyzer clean vs. original, Drako moves simulated.
+
+## Update 4 — delivered as "Please Dont Fight - Claude update 4.rbxl"
+User feedback on update 3: hated the achievement UI (reverted), the trailer (deleted), FredokaOne/Gotham fonts (never use),
+the boss warning circles (esp. tubers93), supply drops (deleted); soccer map was unanchored.
+- Warnings: one clean BossFX circleWarn/lane for every boss (fill grows to the rim on impact); other telegraph layers removed.
+- BossThemes: impact-only signatures from each boss's own textures, no text; bosses flash white when hit.
+- RetroFont: all text forced to Enum.Font.Arcade (fixed-size labels shrink to fit). Combo counter redone arcade style.
+- Soccer: map anchored + stored in ServerStorage.PDFMaps.Soccer, pitch lines non-colliding, invisible walls, no props; match simulated.
