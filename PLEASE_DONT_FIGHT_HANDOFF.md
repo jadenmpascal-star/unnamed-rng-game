@@ -58,3 +58,14 @@ Previous chat had just started step: locating the Illumina model, a real Roblox 
 - Wants stunning VFX, real models over primitives, chaotic fun, interactivity
 - Wants everything improved; welcomes more bosses/modifiers/accessories
 - Publishing is the user's call — never publish
+
+## Update 2 (cloud session, built from the user's uploaded .rbxl — delivered as "Please Dont Fight - Claude update 2.rbxl")
+- Heart Seekers use the user's own "Heart Seeker" bee model (buzzing wings, pink trail, pollen pop).
+- Builderman's ultimate renamed HAMMER TIME and uses a hand-built building hammer (ReplicatedStorage.PDFModels.Hammer); he also carries it on his avatar.
+- Every boss: 5 moves + 2 ultimates (ult 1 at 70% HP, ult 2 at 35%, timed ones alternate). Owner commands /ult1 and /ult2.
+- New bosses: The Noob (id noob) and Shedletsky (id shed); avatars assembled at start by PDFSystems.ContentPack.
+- New modules: ReplicatedStorage.PDFModels, ReplicatedStorage.BossFXPlus, PDFSystems.BossMovesPlus, PDFSystems.ContentPack, PDFSystems.GoldRush.
+- 8 new accessories with powers (Toolbox Hat, Fried Chicken Bucket, Propeller Beanie, Bloxy Cola Hat, Frost Crown, Magnet Helmet, Viking Helm, Storm Cloud) + 8 new achievements.
+- New mode GOLD RUSH (coins; big hits knock coins loose; KOs spill half).
+- Sound design layer for boss attacks (PDFSounds folder + classic rbxasset sounds).
+- Not playtested in Studio yet (built offline); verified by compile, type-check and a simulated run of every new move.
